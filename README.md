@@ -13,7 +13,8 @@ This project demonstrates the how to decrypt with public key on Huawei smart wat
 
 -This project shows how to use public key for the decrypt in RSA|ECB|PKCS1Padding algorithm.
 
-# Technology Stack
+# Tech Stack
+
 **Languages**: ArkTS, ArkUI  
 **Frameworks**: HarmonyOS SDK 5.1.0
 **Tools**: DevEco Studio 5.1.0

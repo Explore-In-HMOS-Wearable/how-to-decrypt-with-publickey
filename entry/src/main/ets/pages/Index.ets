@@ -1,22 +1,22 @@
-import { decryptMessagePromise } from '../rsa/decrypt'
+import { decryptMessagePromise } from '../rsa/Decrypt'
 
 @Entry
 @Component
 struct EncryptPage {
-  @State inputText: string = ''
+  inputText: string = ''
   @State decryptedText: string = ''
 
   build() {
     Scroll() {
       Column() {
-        Text("How to Decrypt With Public Key")
+        Text('How to Decrypt With Public Key')
           .fontSize(18)
           .fontWeight(FontWeight.Bold)
           .fontColor(Color.White)
           .textAlign(TextAlign.Center)
           .margin({ bottom: 15})
 
-        Button("Decrypt")
+        Button('Decrypt')
           .width('60%')
           .height(36)
           .margin({ top: 12 })
